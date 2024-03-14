@@ -79,7 +79,13 @@ mamba env export > environment.yml
 then, you can create an exact copy of it running
 
 ```bash
-mamba env create -f environment.yml
+conda env create -f environment.yml
+```
+
+or 
+
+```
+mamba env update -n <your-env> --file environment.yml
 ```
 
 ### Removing an environment
@@ -115,7 +121,7 @@ mamba install ipython pandas openpyxl matplotlib
 
 or from the file `condaEnvDataAnalysisMinimal.yml`
 
-`mamba create -f condaEnvDataAnalysisMinimal.yml`
+`conda create -f condaEnvDataAnalysisMinimal.yml`
 
 
 ### mamba and poetry
@@ -131,4 +137,4 @@ or from the file `condaEnvDataAnalysisMinimal.yml`
 4. create a new project `poetry new myNewProject` or tune the `pyproject.toml`
 5. Install all the dependencies
     `poetry install`
-6. run your code either from mamba or poetry e.g `poetry run ipython plotRFImpEns.py`
+6. run your code either from mamba or poetry e.g `poetry run ipython myProgram.py`
