@@ -22,4 +22,5 @@ source "${HOME}/miniforge/etc/profile.d/mamba.sh"
 mamba init;
 source "${HOME}/.bashrc";
 mamba activate;
-
+wget https://raw.githubusercontent.com/qLSLab/CBCourse/main/VMconfigs/mambaEnvWH.yml;
+mamba env update wh --file mambaEnvWH.yml;
