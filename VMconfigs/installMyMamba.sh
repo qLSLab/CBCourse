@@ -21,7 +21,7 @@ bash Miniforge3-$(uname)-$(uname -m).sh -b;
 source source "${HOME}/miniforge/etc/profile.d/conda.sh"
 # For mamba support also run the following command
 source "${HOME}/miniforge/etc/profile.d/mamba.sh"
-mamba init;
+~/miniforge3/bin/mamba init;
 source "${HOME}/.bashrc";
 mamba activate;
 wget https://raw.githubusercontent.com/qLSLab/CBCourse/main/VMconfigs/mambaEnvWH.yml;
