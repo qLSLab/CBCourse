@@ -138,3 +138,9 @@ or from the file `condaEnvDataAnalysisMinimal.yml`
 5. Install all the dependencies
     `poetry install`
 6. run your code either from mamba or poetry e.g `poetry run ipython myProgram.py`
+
+
+### Visual Studio Code tips:
+
+* to render invisible charaters `"editor.renderWhitespace": "all",` (`ctrl,` -> search `whitespace`)
+* [Select and activate an environment](https://code.visualstudio.com/docs/python/environments#_select-and-activate-an-environment)
