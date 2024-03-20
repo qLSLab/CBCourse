@@ -82,9 +82,9 @@ then, you can create an exact copy of it running
 conda env create -f environment.yml
 ```
 
-or 
+or
 
-```
+```bash
 mamba env update -n <your-env> --file environment.yml
 ```
 

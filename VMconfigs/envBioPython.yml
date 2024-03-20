@@ -1,0 +1,14 @@
+name: bioPy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - ipython
+  - numpy
+  - pandas
+  - xlsxwriter
+  - openpyxl
+  - pyarrow
+  - jupyterlab
+  - matplotlib
+  - biopython

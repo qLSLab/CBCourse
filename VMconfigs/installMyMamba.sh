@@ -23,9 +23,9 @@ source source "${HOME}/miniforge/etc/profile.d/conda.sh"
 source "${HOME}/miniforge/etc/profile.d/mamba.sh"
 ~/miniforge3/bin/mamba init;
 source "${HOME}/.bashrc";
-mamba activate;
+~/miniforge3/mamba activate;
 wget https://raw.githubusercontent.com/qLSLab/CBCourse/main/VMconfigs/mambaEnvWH.yml;
-mamba env update -n wh --file mambaEnvWH.yml;
+~/miniforge3/mamba env update -n wh --file mambaEnvWH.yml;
 
 if [ -d "$MAMBAROOT/envs/wh" ]; then
   echo "write in bashrc"
