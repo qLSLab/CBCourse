@@ -1,5 +1,6 @@
 # This is a place to collect the useful material for my Computational Biology course
 
+## !!! This project is now maintained in the [new home of the Lab](https://github.com/QmLHS): [QmLHS/CBCourse](https://github.com/QmLHS/CBCourse) !!!
 
 ## Environments: Choose the right room to accomplish a task
 
